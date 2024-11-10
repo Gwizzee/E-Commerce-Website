@@ -329,3 +329,18 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+.social-sharing {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-sharing a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-sharing img {
+  width: 30px;
+  height: auto;
+}
