@@ -21,6 +21,10 @@ This allows them to save their shipping information, track their orders and view
 
 Order Tracking: The order tracking page ebables customers to enter their order number and track the status of the delivery.
 
-Technologies Used
+Technologies Used:
+
+HTML
+CSS
+JavaScript
 
 
