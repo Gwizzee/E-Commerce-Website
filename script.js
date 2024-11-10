@@ -102,6 +102,23 @@ function displayRelatedProducts(product) {
     relatedProductsGrid.innerHTML += productElement;
   });
 }
+const registrationForm = document.getElementById("registration-form");
+
+registrationForm.addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  const username = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  // TODO: Perform input validation
+
+  // TODO: Send data to backend for storage
+
+  // Provide feedback to the user
+  console.log("Registration successful!", username, email, password);
+  // You can display a success message to the user here
+});
 
 // ... (rest of the JavaScript code)
 
