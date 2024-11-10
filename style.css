@@ -89,3 +89,25 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.testimonial-slider {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+.testimonial {
+  min-width: 300px; /* Minimum width for each testimonial */
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+}
