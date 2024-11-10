@@ -119,6 +119,24 @@ registrationForm.addEventListener("submit", function(event) {
   console.log("Registration successful!", username, email, password);
   // You can display a success message to the user here
 });
+const trackingForm = document.getElementById("tracking-form");
+const trackingResults = document.getElementById("tracking-results");
+
+trackingForm.addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
+
+  const orderNumber = document.getElementById("order-number").value;
+
+  // TODO: Fetch tracking information from backend
+
+  // Display tracking information (replace with actual data)
+  trackingResults.innerHTML = `
+    <h3>Order Tracking for ${orderNumber}</h3>
+    <p>Status: Shipped</p>
+    <p>Estimated Delivery: 2023-12-24</p>
+    <p>Tracking Link: <a href="#">Track your package</a></p>
+  `;
+});
 
 // ... (rest of the JavaScript code)
 
