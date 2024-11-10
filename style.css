@@ -274,3 +274,14 @@
   padding: 5px;
   border: 1px solid #ddd;
 }
+.image-container {
+  overflow: hidden; /* Hide image overflow for zoom effect */
+}
+
+.image-container img {
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* Zoom in on hover */
+}
