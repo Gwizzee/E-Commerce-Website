@@ -1,4 +1,6 @@
-For this project I have created an e-commerce website for a business selling unique art prints. It features the following:
+An e-commerce website for a business selling unique art prints. 
+
+Features:
 
 Product Filtering and Sorting: On the Shop page, it adds options to filter products by category, price range etc. 
 It also adds sorting options to display products by popularity, price or newest arrivals.
@@ -18,3 +20,7 @@ Customer Account Creation: Adds functionality for customers to create accounts o
 This allows them to save their shipping information, track their orders and view their purchase history.
 
 Order Tracking: The order tracking page ebables customers to enter their order number and track the status of the delivery.
+
+Technologies Used
+
+
