@@ -78,3 +78,32 @@ sortByFilter.addEventListener("change", filterAndSortProducts);
 
 // Initial display of products
 displayProducts(products);
+// ... (previous JavaScript code)
+
+// Function to display related products
+function displayRelatedProducts(product) {
+  const relatedProductsGrid = document.querySelector(".related-products .product-grid");
+  relatedProductsGrid.innerHTML = ""; // Clear the grid
+
+  // Logic to find related products (replace with your actual logic)
+  const relatedProducts = products.filter(p => p.category === product.category && p.title !== product.title);
+
+  relatedProducts.forEach(product => {
+    const productElement = `
+      <div class="product">
+        <div class="image-container">
+          <img src="${product.image}" alt="${product.title}">
+        </div>
+        <h3>${product.title}</h3>
+        <p>Price: $${product.price.toFixed(2)}</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    `;
+    relatedProductsGrid.innerHTML += productElement;
+  });
+}
+
+// ... (rest of the JavaScript code)
+
+// Call displayRelatedProducts() after displaying the product details
+displayRelatedProducts(product);
