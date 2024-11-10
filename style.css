@@ -254,3 +254,23 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+.filter-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.filter, .sort {
+  display: flex;
+  align-items: center;
+}
+
+.filter label, .sort label {
+  margin-right: 10px;
+}
+
+.filter select, .sort select {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
