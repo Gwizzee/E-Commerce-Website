@@ -138,3 +138,18 @@
   cursor: pointer;
   margin-bottom: 1rem;
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+}
