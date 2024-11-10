@@ -194,3 +194,45 @@
   font-size: 1rem;
   cursor: pointer;
 }
+.contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+.contact button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
