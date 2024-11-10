@@ -285,3 +285,47 @@
 .image-container:hover img {
   transform: scale(1.2); /* Zoom in on hover */
 }
+.newsletter {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.newsletter h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+.newsletter button {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
