@@ -344,3 +344,29 @@
   width: 30px;
   height: auto;
 }
+#registration-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#registration-form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#registration-form input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+#registration-form button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
